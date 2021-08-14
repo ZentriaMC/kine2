@@ -17,6 +17,6 @@ buildGoModule rec {
 
   doCheck = true;
 
-  vendorSha256 = lib.fakeSha256;
+  vendorSha256 = "sha256-KXlMqwm+Z2wJx7/jB04SPCDvjOeDxGGT+SKJDP7MwjA=";
   subPackages = [ "cmd/kine2" ];
 }
