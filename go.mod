@@ -5,5 +5,5 @@ go 1.16
 require (
 	github.com/gorilla/mux v1.8.0
 	github.com/urfave/cli/v2 v2.3.0
-	go.uber.org/zap v1.19.1
+	go.uber.org/zap v1.23.0
 )
